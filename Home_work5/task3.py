@@ -10,7 +10,7 @@ for _ in range(5):
 for _ in range(5):: Это цикл, который выполняется 5 раз.
  _ используется как имя переменной, когда её значение не нужно.
 
-random_string = ''.join(random.choice(text) for _ in range(len(text))):
+random_word = ''.join(random.choice(text) for _ in range(len(text))):
 
 random.choice(text): Выбирает случайный символ из строки text.
 for _ in range(len(text)): Здесь мы указываем, сколько символов нужно выбрать. 
