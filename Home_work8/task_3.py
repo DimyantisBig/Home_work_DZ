@@ -1,5 +1,5 @@
-def make_operation(operator , *args):
-    if operator == '+' :
+def make_operation(operator , *args): # Создали функцию где "operator" -> +/-/*,a "*args" аргумент 5,2,6 любое количество
+    if operator == '+' :             #  * для обозначения любого кол-ва аргументов/ ** для любого кол-ва ключевых слов
         result = 0
         for num in args:
             result = result + num
