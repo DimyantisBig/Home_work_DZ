@@ -11,5 +11,3 @@ print('Список sys.path после добавления нового пут
 print(sys.path)
 
 
-
-
