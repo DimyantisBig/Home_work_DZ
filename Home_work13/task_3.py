@@ -2,7 +2,7 @@
 num = list(range(-8, 88, 8))  # Создаём список чисел от -8 до 80 с шагом 8
 def choose_func(num: list, func1, func2):   # Определяем функцию choose_func, которая принимает список чисел num и две другие функции func1 и func2
     is_positive = all(n > 0 for n in num) # Проверяем, что все числа в списке num положительные, результат проверки сохраняем в is_positive
-    if is_positive: # Если is_positive равно True (все числа положительные)
+    if is_positive == True: # Если is_positive равно True (все числа положительные)
        return func1(num) # Возвращаем результат вызова функции func1, передавая ей num
     else:
         return func2(num) # Иначе возвращаем результат вызова функции func2, передавая ей num
