@@ -70,3 +70,4 @@ class Fraction:
     def __ge__(self, other):
         # Проверка, больше или равно ли одна дробь другой
         return self.numerator * other.denominator >= other.numerator * self.denominator
+
