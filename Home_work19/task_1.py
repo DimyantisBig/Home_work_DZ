@@ -1,4 +1,4 @@
-def with_index(iterable, start=0):
+def with_index(iterable, start):
     """
     Функция, имитирующая поведение встроенной функции enumerate.
 
