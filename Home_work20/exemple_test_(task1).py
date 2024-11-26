@@ -45,4 +45,6 @@ class TestName(unittest.TestCase):
         Проверяем метод initials с пустыми строками.
         """
         with self.assertRaises(IndexError):  # Ожидаем ошибку IndexError
-            self.name.initials("", "")
+            self.name.initials("", "") # Если передать пустые строки в initials,
+                                                         # ожидаем, что возникнет ошибка IndexError,
+                                                        # так как доступ к первому символу невозможен.
