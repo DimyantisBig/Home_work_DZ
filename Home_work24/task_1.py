@@ -28,12 +28,12 @@ def revers_string(input_string):
     for char in input_string:
         stack.push(char)  # Добавляем символ в стек
     # Создаем переменную для хранения перевернутой строки
-    reversed_string = ""
+    revers_string = ""
     # Удаляем символы из стека, пока он не станет пустым
     while not stack.isEmpty():
-        reversed_string += stack.pop()  # Добавляем удаленный символ к перевернутой строке
+        revers_string += stack.pop()  # Добавляем удаленный символ к перевернутой строке
     # Возвращаем перевернутую строку
-    return reversed_string
+    return revers_string
 
 
 
