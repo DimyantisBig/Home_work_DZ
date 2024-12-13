@@ -1,6 +1,6 @@
 import sqlite3 as sql
 
-with sql.connect('task_1_table.sql') as connection:
+with sql.connect('task_1_table.db') as connection:
     cursor = connection.cursor()
 
     # Создаём таблицу, если она ещё не существует
