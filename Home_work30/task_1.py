@@ -1,7 +1,7 @@
 import sqlite3 as sql
 
-with sql.connect('task_1_table.db') as connection:
-    cursor = connection.cursor()
+with sql.connect('task_1_table.db') as conn:
+    cursor = conn.cursor()
 
     # Создаём таблицу, если она ещё не существует
     cursor.execute("""CREATE TABLE IF NOT EXISTS task_1 (
